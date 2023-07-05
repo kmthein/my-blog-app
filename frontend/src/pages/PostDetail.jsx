@@ -32,7 +32,7 @@ export const action = async ({ request, params }) => {
   const response = await fetch(`${process.env.REACT_APP_DOMAIN}/posts/${params.id}`, {
     method: request.method,
     headers: {
-      "Authorization" : "Bearer " + token
+      "Authorization" : "Bearer " + token,
   }
 })
 
