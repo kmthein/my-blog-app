@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1E1F5A;
+}
+body {
+    background: #E9E9E9;
+}
+.post-card {
+    background: rgb(248, 248, 248);
+}
+.date {
+    color: #595a80;
+}
+.form {
+    background: white;
+}
+label {
+    font-weight: 500;
+}
